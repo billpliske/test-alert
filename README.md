@@ -1,5 +1,13 @@
 # test-alert
 
+
+- npm start
+- npm run deploy
+
+
+
+
+
 ### GitHub Pages
 
 >Note: this feature is available with `react-scripts@0.2.0` and higher.
