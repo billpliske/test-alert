@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import homeBackground from '../../assets/images/blue-chihuly.jpg';
 import './Home.css';
+import Contact from '../../components/Contact/Contact';
 
 class Home extends Component {
   render() {
@@ -18,6 +19,7 @@ class Home extends Component {
                     <div className="middle">
                         <div className="inner">
                             <h1 className="bill">{this.props.title}</h1>
+                            <Contact />
                         </div>
                     </div>
                 </div>

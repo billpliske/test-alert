@@ -1,0 +1,108 @@
+.job {
+    text-align: center;
+    font-family: 'Futura Today Normal', sans-serif;
+    font-weight: normal;
+}
+.form {
+    margin: 40px 0;
+    padding-right: 0;
+}
+.form input {
+    padding: 1em;
+}
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea,
+select[multiple=multiple],
+textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Futura Today", sans-serif;
+    font-size: 1em;
+    margin-bottom: 0.75em;
+    padding: 0.5em;
+    -webkit-transition: border-color;
+    transition: border-color;
+    width: 100%;
+}
+input,
+label,
+select {
+    display: block;
+    font-family: "Futura Today", sans-serif;
+    font-size: 1em;
+}
+textarea {
+    resize: vertical;
+}
+.form input {
+    padding: 1em;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: #477dca;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+@media only screen and (min-width: 768px) {
+    .form input[type=submit] {
+        padding: 1.2em 3em;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    button {
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+        padding: 20px 1em;
+    }
+    .title {
+        margin-top:60px;
+    }
+}
