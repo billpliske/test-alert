@@ -1,0 +1,104 @@
+.nav {
+    background-color: #fff;
+    color: #009bff;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-wrapper {
+    position: relative;
+    height: 100%;
+    max-width:1300px;
+    margin: 0 auto;
+}
+
+ul.right li a {
+    color: #009bff;
+    font-size: 1rem;
+    display: block;
+    padding: 0 15px 0 8px;
+}
+
+a {
+    color: #039be5;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.right {
+    float: right !important;
+    padding: 10px;
+    display:none;
+}
+
+.top-logo {
+    width: 175px;
+    display:none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.right li {
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    -ms-transition: background-color .3s;
+    transition: background-color .3s;
+    float: left;
+    padding: 0;
+}
+
+.button-collapse img {
+    padding: 8px 12px;
+    width:53px;
+}
+
+nav .nav-wrapper img {
+    display: block;
+}
+
+@media only screen and (min-width: 600px) {
+    .top-logo {
+        margin: 12px 11px;
+    }
+}
+
+@media only screen and (min-width: 451px) {
+    nav {
+        height: 90px;
+    }
+    nav .button-collapse img {
+        padding: 17px 5px 8px 13px;
+    }
+    .top-logo {
+        margin: 9px 4px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    nav {
+        height: 120px;
+        padding-top: 30px;
+    }
+    ul.right li {
+        list-style-type: disc;
+        text-indent: -5px;
+        margin-left: 15px;
+        color: #ccc;
+        font-family: 'Futura Today', sans-serif;
+    }
+    ul.right li:nth-child(1) {
+        list-style-type: none;
+    }
+    .button-collapse img {
+        display: none;
+    }
+    .top-logo {
+        display:inline-block;
+    }
+    .right {
+        display:inline-block;
+    }
+}
